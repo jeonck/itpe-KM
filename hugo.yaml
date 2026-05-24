@@ -1,0 +1,42 @@
+baseURL: https://jeonck.github.io/itpe-KM/
+title: itpe-KM 지식베이스
+theme: hextra
+
+languageCode: ko-kr
+defaultContentLanguage: ko
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+
+params:
+  description: 정보시스템 기술사 합격을 위한 지식베이스
+  navbar:
+    displayLogo: true
+    displaySearch: true
+    title: itpe-KM
+    width: wide
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+    width: wide
+  search:
+    enable: true
+    type: flexsearch
+  latex:
+    enable: true
+  mermaid:
+    enable: true
+
+menu:
+  main:
+    - name: Docs
+      url: /docs/
+      weight: 10
