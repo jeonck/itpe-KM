@@ -36,11 +36,11 @@ flowchart LR
 
 | 순서 | 토픽 | 핵심 키워드 | 중요도 |
 |:---:|---|---|:---:|
-| 1 | [소프트웨어 위기](software-crisis) | 1968 NATO, Brooks's Law, 복잡성 장벽 | ★★★ |
-| 2 | [SDLC 개요](sdlc) | 계획→분석→설계→구현→테스트→유지보수 | ★★★ |
-| 3 | [SDLC 모델 유형](sdlc-models) | 폭포수, 나선형(Boehm), V-모델, 반복적 | ★★★ |
-| 4 | [전통적 개발 방법론](traditional-methodology) | 구조적(DFD), 정보공학(ISP), OO, CBD, 컴포넌트 가시성 | ★★☆ |
-| 5 | [애자일 방법론](agile-methodology) | Manifesto 4가치·12원칙, Scrum, XP, SAFe, LeSS | ★★★ |
+| 1 | [소프트웨어 위기](01-basics/software-crisis) | 1968 NATO, Brooks's Law, 복잡성 장벽 | ★★★ |
+| 2 | [SDLC 개요](01-basics/sdlc) | 계획→분석→설계→구현→테스트→유지보수 | ★★★ |
+| 3 | [SDLC 모델 유형](01-basics/sdlc-models) | 폭포수, 나선형(Boehm), V-모델, 반복적 | ★★★ |
+| 4 | [전통적 개발 방법론](01-basics/traditional-methodology) | 구조적(DFD), 정보공학(ISP), OO, CBD, 컴포넌트 가시성 | ★★☆ |
+| 5 | [애자일 방법론](01-basics/agile-methodology) | Manifesto 4가치·12원칙, Scrum, XP, SAFe, LeSS | ★★★ |
 
 **→ 핵심 학습법**: 각 방법론이 **이전 방법론의 어떤 한계를 극복**했는지 비교 중심으로 정리하세요.
 
@@ -53,9 +53,9 @@ flowchart LR
 
 | 순서 | 토픽 | 핵심 키워드 | 중요도 |
 |:---:|---|---|:---:|
-| 6 | [프로젝트 관리](project-management) | PMBOK 7th, WBS, CPM, PERT, EVM(CV·SV·CPI·SPI) | ★★★ |
-| 7 | [소프트웨어 규모 산정](estimation) | 델파이, LOC, COCOMO, FP(ILF·EIF·EI·EO·EQ) | ★★★ |
-| 8 | [위험 관리](risk-management) | P-I Matrix, EMV, 회피·전가·완화·수용, 활용·공유·증대 | ★★☆ |
+| 6 | [프로젝트 관리](02-project-management/project-management) | PMBOK 7th, WBS, CPM, PERT, EVM(CV·SV·CPI·SPI) | ★★★ |
+| 7 | [소프트웨어 규모 산정](02-project-management/estimation) | 델파이, LOC, COCOMO, FP(ILF·EIF·EI·EO·EQ) | ★★★ |
+| 8 | [위험 관리](02-project-management/risk-management) | P-I Matrix, EMV, 회피·전가·완화·수용, 활용·공유·증대 | ★★☆ |
 
 **→ 핵심 학습법**: EVM의 `CV = EV - AC`, `CPI = EV / AC` 공식과 해석 방법, FP 산정 절차(UFP × VAF = AFP)를 반드시 암기하세요.
 
@@ -68,7 +68,7 @@ flowchart LR
 
 | 순서 | 토픽 | 핵심 키워드 | 중요도 |
 |:---:|---|---|:---:|
-| 9 | [요구공학](requirements-engineering) | 도출·분석·명세·검증, SRS, RTM, CCB, 인스펙션 | ★★★ |
+| 9 | [요구공학](03-requirements/requirements-engineering) | 도출·분석·명세·검증, SRS, RTM, CCB, 인스펙션 | ★★★ |
 
 **→ 핵심 학습법**: 요구공학 4단계 프로세스와 각 단계의 **산출물(SRS·RTM)**이 무엇인지, 인스펙션·워크스루·동료검토의 **차이점**을 정리하세요.
 
@@ -82,10 +82,10 @@ flowchart LR
 
 | 순서 | 토픽 | 핵심 키워드 | 중요도 |
 |:---:|---|---|:---:|
-| 10 | [UML](uml) | 구조(클래스·컴포넌트·배치) vs 행위(유스케이스·시퀀스·상태) | ★★★ |
-| 11 | [아키텍처 패턴](architecture-patterns) | 계층형, MVC, MVVM, MSA, Saga, CQRS, API Gateway | ★★★ |
-| 12 | [디자인 패턴 (GoF)](design-patterns) | 생성(Singleton·Factory), 구조(Adapter·Proxy), 행위(Observer·Strategy) | ★★★ |
-| 13 | [SOLID 원칙](solid-principles) | SRP·OCP·LSP·ISP·DIP, 위반 사례, 해결 패턴 | ★★★ |
+| 10 | [UML](04-analysis-design/uml) | 구조(클래스·컴포넌트·배치) vs 행위(유스케이스·시퀀스·상태) | ★★★ |
+| 11 | [아키텍처 패턴](04-analysis-design/architecture-patterns) | 계층형, MVC, MVVM, MSA, Saga, CQRS, API Gateway | ★★★ |
+| 12 | [디자인 패턴 (GoF)](04-analysis-design/design-patterns) | 생성(Singleton·Factory), 구조(Adapter·Proxy), 행위(Observer·Strategy) | ★★★ |
+| 13 | [SOLID 원칙](04-analysis-design/solid-principles) | SRP·OCP·LSP·ISP·DIP, 위반 사례, 해결 패턴 | ★★★ |
 
 **→ 핵심 학습법**: 각 패턴의 **"어떤 문제를 해결하는가"** 와 **"핵심 구조"** 를 한 줄씩 정리하세요. UML 다이어그램은 구조/행위 분류부터 외우세요.
 
@@ -98,8 +98,8 @@ flowchart LR
 
 | 순서 | 토픽 | 핵심 키워드 | 중요도 |
 |:---:|---|---|:---:|
-| 14 | [소프트웨어 테스트](software-testing) | 7원칙, 블랙/화이트박스, MC/DC, V-모델 단계별, 인스펙션 | ★★★ |
-| 15 | [소프트웨어 품질 표준](quality-standards) | ISO 25010(8특성), CMMI 5단계, SPICE 6단계 | ★★★ |
+| 14 | [소프트웨어 테스트](05-testing-quality/software-testing) | 7원칙, 블랙/화이트박스, MC/DC, V-모델 단계별, 인스펙션 | ★★★ |
+| 15 | [소프트웨어 품질 표준](05-testing-quality/quality-standards) | ISO 25010(8특성), CMMI 5단계, SPICE 6단계 | ★★★ |
 
 **→ 핵심 학습법**: 커버리지는 **강도 순서**를 외우세요 (구문 < 결정 < 조건 < MC/DC < 다중조건 < 경로). CMMI는 **각 레벨의 키워드**를 암기하세요.
 
@@ -112,8 +112,8 @@ flowchart LR
 
 | 순서 | 토픽 | 핵심 키워드 | 중요도 |
 |:---:|---|---|:---:|
-| 16 | [소프트웨어 유지보수](maintenance) | 수정형·적응형·완전형·예방형, 3R(역공학·재공학·재사용), 리팩토링 | ★★☆ |
-| 17 | [소프트웨어 형상 관리](scm) | 식별→통제(CCB)→감사→보고, 4대 베이스라인, Git Flow | ★★☆ |
+| 16 | [소프트웨어 유지보수](06-maintenance/maintenance) | 수정형·적응형·완전형·예방형, 3R(역공학·재공학·재사용), 리팩토링 | ★★☆ |
+| 17 | [소프트웨어 형상 관리](06-maintenance/scm) | 식별→통제(CCB)→감사→보고, 4대 베이스라인, Git Flow | ★★☆ |
 
 **→ 핵심 학습법**: 유지보수 유형의 **비중 순서**(완전형 50% > 적응형 25% > 수정형 20% > 예방형 5%), 3R의 **방향성**(역공학: 코드→설계, 재공학: 역공학 후 재구조화)을 정리하세요.
 
@@ -127,9 +127,9 @@ flowchart LR
 
 | 순서 | 토픽 | 핵심 키워드 | 중요도 |
 |:---:|---|---|:---:|
-| 18 | [DevOps 및 CI/CD](devops-cicd) | CALMS, CI→CD(제공)→CD(배포), IaC, 불변 인프라 | ★★★ |
-| 19 | [SRE](sre) | SLI·SLO·SLA·Error Budget, Toil 제거, DevOps와의 차이 | ★★★ |
-| 20 | [AI 및 데이터 중심 SW공학](ai-mlops) | MLOps 파이프라인, LLMOps, 모델 드리프트, AI 코드 생성 | ★★★ |
+| 18 | [DevOps 및 CI/CD](07-modern-paradigm/devops-cicd) | CALMS, CI→CD(제공)→CD(배포), IaC, 불변 인프라 | ★★★ |
+| 19 | [SRE](07-modern-paradigm/sre) | SLI·SLO·SLA·Error Budget, Toil 제거, DevOps와의 차이 | ★★★ |
+| 20 | [AI 및 데이터 중심 SW공학](07-modern-paradigm/ai-mlops) | MLOps 파이프라인, LLMOps, 모델 드리프트, AI 코드 생성 | ★★★ |
 
 **→ 핵심 학습법**: DevOps(문화·철학)와 SRE(구체적 구현)의 관계를 한 문장으로 설명할 수 있어야 합니다. Error Budget 계산 공식 `1 - SLO` 와 소진 시 대응 전략을 암기하세요.
 
