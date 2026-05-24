@@ -7,7 +7,6 @@ weight: 1
 
 ## I. 소프트웨어 품질 보증의 근간, SDLC 개요
 
-### 가. SDLC의 통찰 도식
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
 flowchart LR
@@ -16,7 +15,6 @@ flowchart LR
     style B1 fill:#e1f5fe,stroke:#01579b,stroke-width:1px
 ```
 
-### 나. SDLC의 정의 및 특징
 **정의**:  
 소프트웨어 기획부터 폐기까지 전 과정을 체계적으로 관리하기 위한 **프로세스 모델**의 표준 체계  
 
