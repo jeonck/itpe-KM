@@ -14,10 +14,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,23 +23,21 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: 'latest'
-          extended: true
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.134.3/hugo_extended_0.134.3_linux-amd64.tar.gz
+          tar -xf ${{ runner.temp }}/hugo.tar.gz -C ${{ runner.temp }}
+          mkdir -p ${{ runner.temp }}/bin
+          mv ${{ runner.temp }}/hugo ${{ runner.temp }}/bin/hugo
+          echo "${{ runner.temp }}/bin" >> $GITHUB_PATH
       - name: Build with Hugo
         run: |
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
