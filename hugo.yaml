@@ -27,7 +27,6 @@ params:
   description: 정보시스템 기술사 합격을 위한 지식베이스
   navbar:
     displayLogo: true
-    displaySearch: true
     title: itpe-KM
     width: wide
   footer:
@@ -47,3 +46,7 @@ menu:
     - name: Docs
       url: /docs/
       weight: 10
+    - name: Search
+      weight: 20
+      params:
+        type: search
