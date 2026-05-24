@@ -28,20 +28,19 @@ menu:
 ```
 
 ### 3.2. Docs 사이드바 검색창 상시 노출 (`layouts/partials/sidebar.html`)
-테마의 기본 사이드바 레이아웃을 프로젝트 루트로 복사하여 오버라이드했습니다. `hx:md:hidden` 클래스를 제거하여 모든 화면 크기에서 검색창이 보이도록 수정했습니다.
+테마의 기본 사이드바 레이아웃을 프로젝트 루트로 복사하여 오버라이드했습니다. 메인 페이지를 제외한 모든 페이지의 사이드바에서 검색창이 보이도록 수정했습니다.
 
-**수정 전:**
-```html
-<div class="hx:px-4 hx:pt-4 hx:md:hidden">
-  {{ partial "search.html" (dict "location" "sidebar") }}
-</div>
-```
+**수정 내용:**
+- `hx:md:hidden` 클래스를 제거하여 데스크톱에서도 보이게 함.
+- `not $context.IsHome` 조건을 추가하여 메인 페이지 사이드바에서는 숨김 처리.
 
-**수정 후:**
 ```html
-<div class="hx:px-4 hx:pt-4">
-  {{ partial "search.html" (dict "location" "sidebar") }}
-</div>
+{{- if and (site.Params.search.enable | default true) (not $context.IsHome) -}}
+  <!-- Search bar -->
+  <div class="hx:px-4 hx:pt-4">
+    {{ partial "search.html" (dict "location" "sidebar") }}
+  </div>
+{{- end -}}
 ```
 
 ## 4. 최종 확인
