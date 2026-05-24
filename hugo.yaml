@@ -2,6 +2,7 @@ baseURL: https://jeonck.github.io/itpe-KM/
 title: itpe-KM 지식베이스
 theme: hextra
 
+locale: ko
 languageCode: ko-kr
 defaultContentLanguage: ko
 
@@ -9,6 +10,12 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)'], ['$', '$']]
+        enable: true
   highlight:
     noClasses: false
   tableOfContents:
@@ -30,7 +37,7 @@ params:
   search:
     enable: true
     type: flexsearch
-  latex:
+  math:
     enable: true
   mermaid:
     enable: true
