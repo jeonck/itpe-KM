@@ -59,20 +59,16 @@ flowchart LR
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
 flowchart TD
-    subgraph R1["　"]
-        direction LR
-        A["전략적 위험<br/>IT 전략 실패<br/>기술 변화 대응 미흡"] B["운영적 위험<br/>시스템 장애<br/>사이버 공격·내부 오류"]
-    end
-    subgraph R2["　"]
-        direction LR
-        C["재무적 위험<br/>IT 투자 손실<br/>데이터 유출 배상"] D["규제 준수 위험<br/>GDPR·ISMS 위반<br/>감사 지적·과징금"]
-    end
-    style R1 fill:none,stroke:none
-    style R2 fill:none,stroke:none
+    CTR["IT 위험 유형 분류"]
+    CTR --> A["전략적 위험<br/>IT 전략 실패<br/>기술 변화 대응 미흡"]
+    CTR --> B["운영적 위험<br/>시스템 장애<br/>사이버 공격·내부 오류"]
+    CTR --> C["재무적 위험<br/>IT 투자 손실<br/>데이터 유출 배상"]
+    CTR --> D["규제 준수 위험<br/>GDPR·ISMS 위반<br/>감사 지적·과징금"]
+    style CTR fill:#1E3A5F,stroke:#1E3A5F,color:#fff
     style A fill:#FFEBEE,stroke:#D32F2F,color:#000
     style B fill:#F3E5F5,stroke:#7B1FA2,color:#000
     style C fill:#FFF3E0,stroke:#F57C00,color:#000
-    style D fill:#1E3A5F,stroke:#1E3A5F,color:#fff
+    style D fill:#E3F2FD,stroke:#1976D2,color:#000
 ```
 
 | 위험 유형 | 대표 사례 | 대응 전략 | 실무 통제 수단 |

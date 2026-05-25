@@ -71,11 +71,13 @@ flowchart LR
 flowchart TD
     subgraph R1["　"]
         direction LR
-        A["AES<br/>미국 NIST 국제 표준<br/>128/192/256비트 키"] B["DES / 3DES<br/>56비트(취약)·레거시<br/>3DES로 한시적 운용"]
+        A["AES<br/>미국 NIST 국제 표준<br/>128/192/256비트 키"]
+        B["DES / 3DES<br/>56비트(취약)·레거시<br/>3DES로 한시적 운용"]
     end
     subgraph R2["　"]
         direction LR
-        C["SEED / ARIA<br/>한국 KS 표준<br/>128비트 블록"] D["LEA<br/>경량 암호 국산 표준<br/>IoT·모바일 최적화"]
+        C["SEED / ARIA<br/>한국 KS 표준<br/>128비트 블록"]
+        D["LEA<br/>경량 암호 국산 표준<br/>IoT·모바일 최적화"]
     end
     style R1 fill:none,stroke:none
     style R2 fill:none,stroke:none

@@ -37,7 +37,8 @@ flowchart LR
 flowchart TD
     subgraph PROC["프로세스 구조"]
         direction LR
-        PA["프로세스 A<br/>코드·데이터·힙·스택"] PB["프로세스 B<br/>코드·데이터·힙·스택"]
+        PA["프로세스 A<br/>코드·데이터·힙·스택"]
+        PB["프로세스 B<br/>코드·데이터·힙·스택"]
     end
     subgraph THRD["멀티스레드 프로세스 구조"]
         direction LR

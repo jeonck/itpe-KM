@@ -37,11 +37,13 @@ flowchart LR
 flowchart TD
     subgraph R1["　"]
         direction LR
-        A["상호 배제<br/>자원은 한 번에<br/>하나의 프로세스만 사용"] B["점유와 대기<br/>자원 보유 중<br/>추가 자원 대기"]
+        A["상호 배제<br/>자원은 한 번에<br/>하나의 프로세스만 사용"]
+        B["점유와 대기<br/>자원 보유 중<br/>추가 자원 대기"]
     end
     subgraph R2["　"]
         direction LR
-        C["비선점<br/>점유 자원을<br/>강제로 빼앗을 수 없음"] D["환형 대기<br/>P1→R1→P2→R2→P1<br/>순환 자원 대기 사슬"]
+        C["비선점<br/>점유 자원을<br/>강제로 빼앗을 수 없음"]
+        D["환형 대기<br/>P1→R1→P2→R2→P1<br/>순환 자원 대기 사슬"]
     end
     style R1 fill:none,stroke:none
     style R2 fill:none,stroke:none

@@ -65,11 +65,13 @@ flowchart LR
 flowchart TD
     subgraph R1["　"]
         direction LR
-        A["뮤텍스<br/>이진 락, 소유권 있음<br/>획득한 스레드만 해제"] B["이진 세마포어<br/>값 0·1, 소유권 없음<br/>다른 스레드 해제 가능"]
+        A["뮤텍스<br/>이진 락, 소유권 있음<br/>획득한 스레드만 해제"]
+        B["이진 세마포어<br/>값 0·1, 소유권 없음<br/>다른 스레드 해제 가능"]
     end
     subgraph R2["　"]
         direction LR
-        C["카운팅 세마포어<br/>값 N, 다중 자원 관리<br/>P(wait)·V(signal) 연산"] D["모니터<br/>고수준 추상화<br/>조건변수 wait·signal"]
+        C["카운팅 세마포어<br/>값 N, 다중 자원 관리<br/>P(wait)·V(signal) 연산"]
+        D["모니터<br/>고수준 추상화<br/>조건변수 wait·signal"]
     end
     style R1 fill:none,stroke:none
     style R2 fill:none,stroke:none

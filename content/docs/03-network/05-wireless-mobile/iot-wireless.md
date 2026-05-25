@@ -37,11 +37,13 @@ flowchart LR
 flowchart TD
     subgraph R1["저전력 근거리 vs 정밀 측위"]
         direction LR
-        A["BLE 5.x<br/>2.4GHz·10~100m<br/>2Mbps·저전력<br/>헬스케어·웨어러블"] B["UWB<br/>3.1~10.6GHz·수십m<br/>500Mbps·cm 정밀도<br/>Apple AirTag·실내 측위"]
+        A["BLE 5.x<br/>2.4GHz·10~100m<br/>2Mbps·저전력<br/>헬스케어·웨어러블"]
+        B["UWB<br/>3.1~10.6GHz·수십m<br/>500Mbps·cm 정밀도<br/>Apple AirTag·실내 측위"]
     end
     subgraph R2["메쉬 IoT vs 스마트홈 특화"]
         direction LR
-        C["ZigBee<br/>IEEE 802.15.4·2.4GHz<br/>250kbps·10~100m<br/>메쉬·스마트홈·산업"] D["Z-Wave<br/>868/908MHz·30m<br/>100kbps·저간섭<br/>스마트홈 전용 생태계"]
+        C["ZigBee<br/>IEEE 802.15.4·2.4GHz<br/>250kbps·10~100m<br/>메쉬·스마트홈·산업"]
+        D["Z-Wave<br/>868/908MHz·30m<br/>100kbps·저간섭<br/>스마트홈 전용 생태계"]
     end
     style R1 fill:none,stroke:none
     style R2 fill:none,stroke:none

@@ -37,11 +37,13 @@ flowchart LR
 flowchart TD
     subgraph R1["　"]
         direction LR
-        VR["VR 가상 현실<br/>완전 가상 환경<br/>현실 차단·몰입"] AR["AR 증강 현실<br/>현실 위 디지털 오버레이<br/>현실 유지+정보 부가"]
+        VR["VR 가상 현실<br/>완전 가상 환경<br/>현실 차단·몰입"]
+        AR["AR 증강 현실<br/>현실 위 디지털 오버레이<br/>현실 유지+정보 부가"]
     end
     subgraph R2["　"]
         direction LR
-        MR["MR 혼합 현실<br/>가상·현실 객체<br/>실시간 상호작용"] XR["XR 확장 현실<br/>VR·AR·MR 통합<br/>공간 컴퓨팅 기반"]
+        MR["MR 혼합 현실<br/>가상·현실 객체<br/>실시간 상호작용"]
+        XR["XR 확장 현실<br/>VR·AR·MR 통합<br/>공간 컴퓨팅 기반"]
     end
     style R1 fill:none,stroke:none
     style R2 fill:none,stroke:none

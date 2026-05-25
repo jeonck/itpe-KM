@@ -71,11 +71,13 @@ flowchart TD
 flowchart TD
     subgraph HEAP["　"]
         direction LR
-        MH["최대 힙 Max-Heap<br/>루트=최댓값<br/>부모 >= 자식"] MIH["최소 힙 Min-Heap<br/>루트=최솟값<br/>부모 <= 자식"]
+        MH["최대 힙 Max-Heap<br/>루트=최댓값<br/>부모 >= 자식"]
+        MIH["최소 힙 Min-Heap<br/>루트=최솟값<br/>부모 <= 자식"]
     end
     subgraph GRAPH["　"]
         direction LR
-        AM["인접 행렬<br/>Adjacency Matrix<br/>V x V 2차원 배열"] AL["인접 리스트<br/>Adjacency List<br/>각 노드 연결 리스트"]
+        AM["인접 행렬<br/>Adjacency Matrix<br/>V x V 2차원 배열"]
+        AL["인접 리스트<br/>Adjacency List<br/>각 노드 연결 리스트"]
     end
     style HEAP fill:none,stroke:none
     style GRAPH fill:none,stroke:none
