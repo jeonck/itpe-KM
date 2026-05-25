@@ -1,5 +1,4 @@
 ---
-title: itpe-KM Home
 ---
 
 <div style="text-align:center; padding: 3rem 1rem 2rem;">
