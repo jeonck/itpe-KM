@@ -5,8 +5,6 @@ type: docs
 weight: 1
 ---
 
-# 무선 LAN (Wi-Fi) 기술 표준
-
 ## 1. 802.11 표준 진화로 무선 대역폭·효율 극대화, 무선 LAN 기술 표준의 개요
 
 ```mermaid

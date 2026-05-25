@@ -5,8 +5,6 @@ type: docs
 weight: 2
 ---
 
-# L2 스위치·VLAN·STP
-
 ## 1. MAC 학습·VLAN 분리·STP 루프 차단으로 L2 안정화, L2 스위치·VLAN·STP의 개요
 
 ```mermaid

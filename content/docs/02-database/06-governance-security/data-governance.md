@@ -5,8 +5,6 @@ type: docs
 weight: 1
 ---
 
-# 데이터 거버넌스 (Data Governance)
-
 ## 1. 데이터를 기업 전략 자산으로 체계 관리, 데이터 거버넌스의 개요
 
 ```mermaid

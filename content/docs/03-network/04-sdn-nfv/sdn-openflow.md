@@ -5,8 +5,6 @@ type: docs
 weight: 1
 ---
 
-# SDN (Software Defined Networking)
-
 ## 1. 제어부·전송부 분리로 네트워크를 소프트웨어로 제어, SDN의 개요
 
 ```mermaid

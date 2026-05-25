@@ -5,8 +5,6 @@ type: docs
 weight: 2
 ---
 
-# NFV·VxLAN·SD-WAN
-
 ## 1. 하드웨어 종속 탈피·오버레이 확장·WAN 지능화, NFV·VxLAN·SD-WAN의 개요
 
 ```mermaid

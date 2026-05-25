@@ -5,8 +5,6 @@ type: docs
 weight: 1
 ---
 
-# QoS 및 트래픽 관리
-
 ## 1. 대역폭·지연·손실을 보장하는 트래픽 품질 제어, QoS의 개요
 
 ```mermaid

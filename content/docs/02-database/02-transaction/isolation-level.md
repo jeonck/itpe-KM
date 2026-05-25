@@ -5,7 +5,6 @@ type: docs
 weight: 3
 ---
 
-# 트랜잭션 고립 수준 (Transaction Isolation Level)
 **일관성과 동시성의 균형을 결정하는 4단계 제어 레벨**
 
 ## 1. 일관성과 동시성의 균형 조정 레벨, 트랜잭션 고립 수준의 개요

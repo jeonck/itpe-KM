@@ -5,8 +5,6 @@ type: docs
 weight: 3
 ---
 
-# L3 IP 주소 체계 (IPv4/IPv6/NAT)
-
 ## 1. 논리 주소 체계와 IPv4 고갈 극복 전략, L3 IP 주소 체계의 개요
 
 ```mermaid

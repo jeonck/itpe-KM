@@ -5,8 +5,6 @@ type: docs
 weight: 2
 ---
 
-# OSI 7계층 및 TCP/IP 프로토콜 스택
-
 ## 1. 이기종 시스템 간 통신을 계층으로 표준화, OSI 7 Layer & TCP/IP 프로토콜 스택의 개요
 
 ```mermaid

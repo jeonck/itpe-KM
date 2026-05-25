@@ -5,8 +5,6 @@ type: docs
 weight: 2
 ---
 
-# 고가용성 아키텍처 (High Availability)
-
 ## 1. 장애 시에도 서비스 중단 없는 DB 설계, 고가용성 아키텍처의 개요
 
 ```mermaid

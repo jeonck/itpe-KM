@@ -5,8 +5,6 @@ type: docs
 weight: 1
 ---
 
-# NoSQL (Not Only SQL)
-
 ## 1. ACID 대신 BASE로 대규모 분산 처리, NoSQL의 개요
 
 ```mermaid

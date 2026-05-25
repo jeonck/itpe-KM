@@ -5,8 +5,6 @@ type: docs
 weight: 1
 ---
 
-# 분산 데이터베이스 (Distributed Database)
-
 ## 1. 지리적으로 분산된 단일 논리 DB 시스템, 분산 데이터베이스의 개요
 
 ```mermaid

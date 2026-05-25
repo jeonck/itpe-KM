@@ -5,7 +5,6 @@ type: docs
 weight: 1
 ---
 
-# L4 전송 계층 (TCP/UDP)
 **Transport Layer — Transmission Control Protocol / User Datagram Protocol**
 
 ## 1. 엔드투엔드 신뢰성 보장의 핵심 전송 프로토콜, TCP/UDP의 개요

@@ -5,8 +5,6 @@ type: docs
 weight: 2
 ---
 
-# 데이터베이스 보안 (Database Security)
-
 ## 1. 접근 제어·암호화·비식별화로 DB 자산 보호, 데이터베이스 보안의 개요
 
 ```mermaid

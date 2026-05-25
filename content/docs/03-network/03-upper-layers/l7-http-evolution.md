@@ -5,7 +5,6 @@ type: docs
 weight: 2
 ---
 
-# HTTP 프로토콜의 진화
 **HyperText Transfer Protocol — HTTP/1.1 → HTTP/2 → HTTP/3(QUIC)**
 
 ## 1. 웹 성능 한계 극복을 위한 HTTP 세대별 혁신, HTTP 프로토콜의 개요

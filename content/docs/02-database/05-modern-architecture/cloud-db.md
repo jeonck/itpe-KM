@@ -5,8 +5,6 @@ type: docs
 weight: 3
 ---
 
-# 클라우드 데이터베이스 (Cloud Database)
-
 ## 1. 탄력적 확장과 완전 관리형 DB 인프라, 클라우드 데이터베이스의 개요
 
 ```mermaid

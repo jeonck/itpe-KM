@@ -5,7 +5,6 @@ type: docs
 weight: 3
 ---
 
-# DNS·DHCP 및 주요 응용 프로토콜
 **Domain Name System / Dynamic Host Configuration Protocol**
 
 ## 1. 도메인 해석·주소 자동 할당으로 네트워크 편의성 실현, DNS·DHCP의 개요
