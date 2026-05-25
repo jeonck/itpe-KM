@@ -7,6 +7,6 @@ weight: 5
 
 | 토픽 | 핵심 내용 | 주요 키워드 |
 |---|---|---|
-| **ESG와 IT 경영 (Green IT)** | ESG 3대 관점과 IT 역할, 데이터센터 PUE 지표, 친환경 기술 | PUE, 액침냉각, 탄소중립, 재생에너지 |
-| **AI 거버넌스 및 신뢰할 수 있는 AI** | Trustworthy AI 4대 원칙, EU AI Act 위험 등급 체계, 국내 AI 기본법 | 공정성, 투명성, 책임성, 안전성 |
-| **데이터 규제·마이데이터·SW 진흥법** | 마이데이터 생태계, 데이터 가치평가·거래소, SW 진흥법 핵심 개정 | MyData, FP 대가산정, MAS, 분리발주 |
+| **[ESG와 IT 경영 (Green IT)](esg-green-it)** | ESG 3대 관점과 IT 역할, 데이터센터 PUE 지표, 친환경 기술 | PUE, 액침냉각, 탄소중립, 재생에너지 |
+| **[AI 거버넌스 및 신뢰할 수 있는 AI](ai-governance)** | Trustworthy AI 4대 원칙, EU AI Act 위험 등급 체계, 국내 AI 기본법 | 공정성, 투명성, 책임성, 안전성 |
+| **[데이터 규제·마이데이터·SW 진흥법](data-sw-regulation)** | 마이데이터 생태계, 데이터 가치평가·거래소, SW 진흥법 핵심 개정 | MyData, FP 대가산정, MAS, 분리발주 |

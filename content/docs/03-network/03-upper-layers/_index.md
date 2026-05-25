@@ -7,6 +7,6 @@ OSI 7계층 중 전송 계층(L4)부터 응용 계층(L7)까지는 실제 사용
 
 | 토픽명 | 핵심 키워드 | 중요도 |
 |---|---|---|
-| **L4 전송 계층 (TCP/UDP)** | 3-Way Handshake, 슬라이딩 윈도우, 혼잡 제어, Slow Start, Fast Retransmit | ★★★★★ |
-| **HTTP 프로토콜의 진화** | HTTP/1.1, HTTP/2 멀티플렉싱, HPACK, HTTP/3, QUIC, 0-RTT | ★★★★☆ |
-| **DNS·DHCP 및 주요 응용 프로토콜** | 재귀 쿼리, DORA, DNS 레코드, SMTP, FTP, SNMP | ★★★★☆ |
+| **[L4 전송 계층 (TCP/UDP)](l4-tcp-udp)** | 3-Way Handshake, 슬라이딩 윈도우, 혼잡 제어, Slow Start, Fast Retransmit | ★★★★★ |
+| **[HTTP 프로토콜의 진화](l7-http-evolution)** | HTTP/1.1, HTTP/2 멀티플렉싱, HPACK, HTTP/3, QUIC, 0-RTT | ★★★★☆ |
+| **[DNS·DHCP 및 주요 응용 프로토콜](l7-dns-dhcp)** | 재귀 쿼리, DORA, DNS 레코드, SMTP, FTP, SNMP | ★★★★☆ |

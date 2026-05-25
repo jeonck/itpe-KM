@@ -10,7 +10,7 @@ weight: 4
 
 | 토픽 | 핵심 내용 | 핵심 키워드 |
 |---|---|---|
-| **제로 트러스트** | Never Trust Always Verify 원칙, SDP 구현 모델, 5대 가이드라인 | 최소 권한, ZTNA, SPA |
-| **클라우드 보안 아키텍처** | 공동 책임 모델, CWPP·CSPM·CASB·CNAPP, SASE·SSE | CNAPP, SD-WAN, SSE |
-| **AI와 보안** | SOAR 자동화, 적대적 공격, LLM 프롬프트 인젝션 | UEBA, Evasion, Poisoning |
-| **공급망 보안 및 SBOM** | 오픈소스 취약점 관리, SPDX·CycloneDX 표준 | CVE, SCA, EO 14028 |
+| **[제로 트러스트](zero-trust)** | Never Trust Always Verify 원칙, SDP 구현 모델, 5대 가이드라인 | 최소 권한, ZTNA, SPA |
+| **[클라우드 보안 아키텍처](cloud-security)** | 공동 책임 모델, CWPP·CSPM·CASB·CNAPP, SASE·SSE | CNAPP, SD-WAN, SSE |
+| **[AI와 보안](ai-security)** | SOAR 자동화, 적대적 공격, LLM 프롬프트 인젝션 | UEBA, Evasion, Poisoning |
+| **[공급망 보안 및 SBOM](supply-chain-sbom)** | 오픈소스 취약점 관리, SPDX·CycloneDX 표준 | CVE, SCA, EO 14028 |

@@ -7,5 +7,5 @@ weight: 7
 
 | 토픽 | 핵심 내용 | 주요 개념 |
 |---|---|---|
-| **디스크 스케줄링 및 RAID** | 헤드 이동 최소화 알고리즘과 디스크 어레이 구성 | FCFS·SSTF·SCAN·C-SCAN·LOOK, RAID 0·1·5·6·10 |
-| **파일 시스템 및 가상화** | 파일 할당 방식과 하이퍼바이저·컨테이너 가상화 비교 | 연속·연결·인덱스 할당, Type 1·2 하이퍼바이저, Docker |
+| **[디스크 스케줄링 및 RAID](disk-scheduling-raid)** | 헤드 이동 최소화 알고리즘과 디스크 어레이 구성 | FCFS·SSTF·SCAN·C-SCAN·LOOK, RAID 0·1·5·6·10 |
+| **[파일 시스템 및 가상화](filesystem-virtualization)** | 파일 할당 방식과 하이퍼바이저·컨테이너 가상화 비교 | 연속·연결·인덱스 할당, Type 1·2 하이퍼바이저, Docker |

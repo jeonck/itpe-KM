@@ -11,6 +11,6 @@ weight: 5
 
 | 토픽 | 핵심 내용 | 주요 키워드 |
 |---|---|---|
-| **NoSQL** | BASE 특성과 Key-Value·Document·Column-Family·Graph 4가지 데이터 모델로 대규모 분산 처리를 실현하는 비관계형 DB | BASE, Eventual Consistency, Redis, MongoDB, Cassandra, Neo4j |
-| **빅데이터 스토리지 및 분석 아키텍처** | 데이터 웨어하우스·데이터 레이크·레이크하우스의 진화와 Hadoop·Spark 기반 대용량 분산 처리 프레임워크 | DW, Data Lake, Lakehouse, Hadoop, Spark, Lambda 아키텍처 |
-| **클라우드 데이터베이스** | DBaaS 기반 완전 관리형 DB 서비스와 시계열·벡터 DB의 IoT·LLM/RAG 연계 활용 | DBaaS, Aurora Serverless, InfluxDB, Vector DB, RAG, HNSW |
+| **[NoSQL](nosql)** | BASE 특성과 Key-Value·Document·Column-Family·Graph 4가지 데이터 모델로 대규모 분산 처리를 실현하는 비관계형 DB | BASE, Eventual Consistency, Redis, MongoDB, Cassandra, Neo4j |
+| **[빅데이터 스토리지 및 분석 아키텍처](big-data-architecture)** | 데이터 웨어하우스·데이터 레이크·레이크하우스의 진화와 Hadoop·Spark 기반 대용량 분산 처리 프레임워크 | DW, Data Lake, Lakehouse, Hadoop, Spark, Lambda 아키텍처 |
+| **[클라우드 데이터베이스](cloud-db)** | DBaaS 기반 완전 관리형 DB 서비스와 시계열·벡터 DB의 IoT·LLM/RAG 연계 활용 | DBaaS, Aurora Serverless, InfluxDB, Vector DB, RAG, HNSW |

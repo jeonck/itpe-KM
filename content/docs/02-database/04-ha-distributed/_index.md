@@ -13,5 +13,5 @@ weight: 4
 
 | 토픽 | 핵심 내용 | 주요 키워드 |
 |---|---|---|
-| **분산 데이터베이스** | 4대 투명성(위치·분할·할당·중복)과 CAP·PACELC 이론으로 이해하는 분산 DB 설계 원칙과 트레이드오프 | 위치 투명성, CAP 이론, CP/AP 시스템, PACELC, HBase, Cassandra |
-| **고가용성 아키텍처** | 동기·비동기·반동기 복제와 Shared Disk·Shared Nothing 클러스터링으로 구현하는 무중단 서비스 설계 | 동기/비동기 복제, RTO/RPO, Oracle RAC, Shared Nothing, Active-Active |
+| **[분산 데이터베이스](distributed-db)** | 4대 투명성(위치·분할·할당·중복)과 CAP·PACELC 이론으로 이해하는 분산 DB 설계 원칙과 트레이드오프 | 위치 투명성, CAP 이론, CP/AP 시스템, PACELC, HBase, Cassandra |
+| **[고가용성 아키텍처](ha-architecture)** | 동기·비동기·반동기 복제와 Shared Disk·Shared Nothing 클러스터링으로 구현하는 무중단 서비스 설계 | 동기/비동기 복제, RTO/RPO, Oracle RAC, Shared Nothing, Active-Active |
