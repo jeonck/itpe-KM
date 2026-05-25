@@ -50,3 +50,8 @@ menu:
       weight: 20
       params:
         type: search
+    - name: Sponsor
+      url: https://github.com/sponsors/jeonck
+      weight: 30
+      params:
+        icon: heart
