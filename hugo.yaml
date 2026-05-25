@@ -1,5 +1,5 @@
 baseURL: https://jeonck.github.io/itpe-KM/
-title: itpe-KM 지식베이스
+title: ITPE 지식베이스
 theme: hextra
 
 locale: ko
@@ -27,7 +27,7 @@ params:
   description: 정보시스템 기술사 합격을 위한 지식베이스
   navbar:
     displayLogo: true
-    title: itpe-KM
+    title: ITPE 지식베이스
     width: wide
   footer:
     displayCopyright: true
