@@ -11,7 +11,7 @@ weight: 1
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
 flowchart TD
-    subgraph R1["　"]
+    subgraph R1["1단계 — 기초에서 설계까지"]
         direction LR
         A["①<br/>기초·방법론"]
         B["②<br/>프로젝트 관리"]
@@ -19,17 +19,15 @@ flowchart TD
         D["④<br/>분석·설계"]
         A --> B --> C --> D
     end
-    subgraph R2["　"]
+    subgraph R2["2단계 — 품질에서 최신 트렌드까지"]
         direction LR
         E["⑤<br/>테스트·품질"]
         F["⑥<br/>유지보수"]
         G["⑦<br/>최신 패러다임"]
         E --> F --> G
     end
-    D --> E
+    R1 --> R2
 
-    style R1 fill:none,stroke:none
-    style R2 fill:none,stroke:none
     style A fill:#FFEBEE,stroke:#D32F2F,color:#000
     style B fill:#FFF3E0,stroke:#F57C00,color:#000
     style C fill:#FFFDE7,stroke:#F9A825,color:#000
