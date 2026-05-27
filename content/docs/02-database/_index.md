@@ -8,111 +8,47 @@ weight: 2
 
 ## 학습 로드맵 — 6단계 흐름
 
-<div style="background:linear-gradient(135deg,#0f0c29 0%,#302b63 55%,#24243e 100%); border-radius:16px; padding:28px 20px 32px; margin:1.5rem 0; font-family:sans-serif;">
-
-  <!-- 헤더 -->
-  <div style="text-align:center; margin-bottom:22px;">
-    <div style="font-size:1rem; font-weight:700; color:#fff; letter-spacing:0.03em; margin-bottom:5px;">6단계 블록 다이어그램: 시스템 구축 흐름</div>
-    <div style="font-size:0.7rem; color:#9ca3af;">각 단계는 화살표와 연결선 구조를 통해 유기적으로 연결됩니다.</div>
-  </div>
+<div style="font-family:sans-serif; margin:1.5rem 0; display:inline-block; max-width:100%;">
 
   <!-- 행 1: ① → ② → ③ -->
-  <div style="display:flex; align-items:stretch; flex-wrap:nowrap; gap:0;">
-
-    <!-- ① 기초·모델링 -->
-    <div style="position:relative; background:linear-gradient(135deg,#1e3a8a,#3b82f6); border:1px solid rgba(147,197,253,0.35); border-radius:12px; padding:20px 10px 14px; flex:1; min-width:0; text-align:center;">
-      <div style="position:absolute; top:-11px; left:10px; background:#ef4444; color:#fff; width:22px; height:22px; border-radius:50%; font-size:0.68rem; font-weight:700; line-height:22px; text-align:center;">①</div>
-      <div style="font-size:1.5rem; margin-bottom:6px;">🗄️</div>
-      <div style="font-size:0.8rem; font-weight:700; color:#fff;">기초·모델링</div>
-      <div style="font-size:0.62rem; color:#bfdbfe; margin-top:6px;"><span style="color:#fbbf24; font-weight:600;">목표:</span> 시스템의<br/>구조 구축</div>
+  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap;">
+    <div style="background:#FFEBEE; border:2px solid #D32F2F; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">①<br/>기초·모델링</div>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">일관성을 보장하라</span>
+      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
-
-    <!-- ①→② 화살표 -->
-    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 6px; min-width:80px; flex-shrink:0;">
-      <span style="font-size:0.6rem; color:#fde68a; white-space:nowrap; margin-bottom:3px;">일관성을 보장하라</span>
-      <span style="color:#fde68a; font-size:1.5rem; line-height:1;">⟶</span>
+    <div style="background:#FFF3E0; border:2px solid #F57C00; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">②<br/>트랜잭션·동시성</div>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">빠르게 처리하라</span>
+      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
-
-    <!-- ② 트랜잭션·동시성 -->
-    <div style="position:relative; background:linear-gradient(135deg,#065f46,#10b981); border:1px solid rgba(110,231,183,0.35); border-radius:12px; padding:20px 10px 14px; flex:1; min-width:0; text-align:center;">
-      <div style="position:absolute; top:-11px; left:10px; background:#ef4444; color:#fff; width:22px; height:22px; border-radius:50%; font-size:0.68rem; font-weight:700; line-height:22px; text-align:center;">②</div>
-      <div style="font-size:1.5rem; margin-bottom:6px;">🔄</div>
-      <div style="font-size:0.8rem; font-weight:700; color:#fff;">트랜잭션·동시성</div>
-      <div style="font-size:0.62rem; color:#d1fae5; margin-top:6px;"><span style="color:#fbbf24; font-weight:600;">목표:</span> 데이터 통합<br/>및 보존</div>
-    </div>
-
-    <!-- ②→③ 화살표 -->
-    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 6px; min-width:80px; flex-shrink:0;">
-      <span style="font-size:0.6rem; color:#fde68a; white-space:nowrap; margin-bottom:3px;">빠르게 처리하라</span>
-      <span style="color:#fde68a; font-size:1.5rem; line-height:1;">⟶</span>
-    </div>
-
-    <!-- ③ 성능 최적화 -->
-    <div style="position:relative; background:linear-gradient(135deg,#14532d,#22c55e); border:1px solid rgba(134,239,172,0.35); border-radius:12px; padding:20px 10px 14px; flex:1; min-width:0; text-align:center;">
-      <div style="position:absolute; top:-11px; left:10px; background:#ef4444; color:#fff; width:22px; height:22px; border-radius:50%; font-size:0.68rem; font-weight:700; line-height:22px; text-align:center;">③</div>
-      <div style="font-size:1.5rem; margin-bottom:6px;">⚡</div>
-      <div style="font-size:0.8rem; font-weight:700; color:#fff;">성능 최적화</div>
-      <div style="font-size:0.62rem; color:#bbf7d0; margin-top:6px;"><span style="color:#fbbf24; font-weight:600;">목표:</span> 쿼리 속도<br/>및 처리 효율</div>
-    </div>
-
+    <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">③<br/>성능 최적화</div>
   </div>
 
-  <!-- ③→④ 꺾은선: 비율 기반 SVG (③ 중앙 87% ↔ ④ 중앙 13%) -->
-  <svg width="100%" height="52" style="display:block; overflow:visible;">
-    <defs>
-      <marker id="db-down-arrow" markerWidth="8" markerHeight="8" refX="4" refY="8" orient="auto">
-        <polygon points="0,0 8,0 4,8" fill="rgba(253,230,138,0.9)"/>
-      </marker>
-    </defs>
-    <!-- 수직: ③ 중앙(87%)에서 아래로 -->
-    <line x1="87%" y1="2" x2="87%" y2="34" stroke="rgba(253,230,138,0.7)" stroke-width="2"/>
-    <!-- 수평: ④ 중앙(13%)까지 왼쪽으로 -->
-    <line x1="13%" y1="34" x2="87%" y2="34" stroke="rgba(253,230,138,0.7)" stroke-width="2"/>
-    <!-- 수직: ④ 중앙(13%)에서 아래로 (화살표) -->
-    <line x1="13%" y1="34" x2="13%" y2="50" stroke="rgba(253,230,138,0.7)" stroke-width="2" marker-end="url(#db-down-arrow)"/>
-    <!-- 레이블 -->
-    <text x="50%" y="28" text-anchor="middle" font-size="10" fill="rgba(253,230,138,0.95)" font-family="sans-serif">중단 없이 운영하라</text>
-  </svg>
+  <!-- ③→④ 꺾은선: ③ 중앙 수직 + 수평 복귀 + ④ 중앙 화살표 -->
+  <div style="display:flex; height:48px; position:relative; overflow:visible;">
+    <span style="position:absolute; left:50%; top:10px; transform:translateX(-50%); font-size:0.72rem; color:#666; white-space:nowrap;">중단 없이 운영하라</span>
+    <!-- 수평선 -->
+    <div style="flex:1; border-bottom:2px solid #aaa;"></div>
+    <!-- ③ 중앙 코너: min-width(88px)의 절반 = 44px -->
+    <div style="width:44px; border-right:2px solid #aaa; border-bottom:2px solid #aaa; border-bottom-right-radius:10px;"></div>
+    <!-- ④ 중앙(44px)에 아래 방향 화살표 -->
+    <div style="position:absolute; bottom:-8px; left:44px; transform:translateX(-50%); width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:8px solid #aaa;"></div>
+  </div>
 
   <!-- 행 2: ④ → ⑤ → ⑥ -->
-  <div style="display:flex; align-items:stretch; flex-wrap:nowrap; gap:0;">
-
-    <!-- ④ 고가용성·분산 -->
-    <div style="position:relative; background:linear-gradient(135deg,#4c1d95,#8b5cf6); border:1px solid rgba(196,181,253,0.35); border-radius:12px; padding:20px 10px 14px; flex:1; min-width:0; text-align:center;">
-      <div style="position:absolute; top:-11px; left:10px; background:#ef4444; color:#fff; width:22px; height:22px; border-radius:50%; font-size:0.68rem; font-weight:700; line-height:22px; text-align:center;">④</div>
-      <div style="font-size:1.5rem; margin-bottom:6px;">🌐</div>
-      <div style="font-size:0.8rem; font-weight:700; color:#fff;">고가용성·분산</div>
-      <div style="font-size:0.62rem; color:#ede9fe; margin-top:6px;"><span style="color:#fbbf24; font-weight:600;">목표:</span> 규모 확장<br/>및 무중단 복구</div>
+  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-top:10px;">
+    <div style="background:#E8F5E9; border:2px solid #388E3C; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">④<br/>고가용성·분산</div>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">대규모로 확장하라</span>
+      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
-
-    <!-- ④→⑤ 화살표 -->
-    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 6px; min-width:80px; flex-shrink:0;">
-      <span style="font-size:0.6rem; color:#fde68a; white-space:nowrap; margin-bottom:3px;">대규모로 확장하라</span>
-      <span style="color:#fde68a; font-size:1.5rem; line-height:1;">⟶</span>
+    <div style="background:#E3F2FD; border:2px solid #1976D2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑤<br/>최신 아키텍처</div>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">안전하게 관리하라</span>
+      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
-
-    <!-- ⑤ 최신 아키텍처 -->
-    <div style="position:relative; background:linear-gradient(135deg,#1e3a8a,#60a5fa); border:1px solid rgba(147,197,253,0.35); border-radius:12px; padding:20px 10px 14px; flex:1; min-width:0; text-align:center;">
-      <div style="position:absolute; top:-11px; left:10px; background:#ef4444; color:#fff; width:22px; height:22px; border-radius:50%; font-size:0.68rem; font-weight:700; line-height:22px; text-align:center;">⑤</div>
-      <div style="font-size:1.5rem; margin-bottom:6px;">☁️</div>
-      <div style="font-size:0.8rem; font-weight:700; color:#fff;">최신 아키텍처</div>
-      <div style="font-size:0.62rem; color:#dbeafe; margin-top:6px;"><span style="color:#fbbf24; font-weight:600;">목표:</span> 클라우드<br/>및 유연성</div>
-    </div>
-
-    <!-- ⑤→⑥ 화살표 -->
-    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 6px; min-width:80px; flex-shrink:0;">
-      <span style="font-size:0.6rem; color:#fde68a; white-space:nowrap; margin-bottom:3px;">안전하게 관리하라</span>
-      <span style="color:#fde68a; font-size:1.5rem; line-height:1;">⟶</span>
-    </div>
-
-    <!-- ⑥ 거버넌스·보안 -->
-    <div style="position:relative; background:linear-gradient(135deg,#0c4a6e,#0ea5e9); border:1px solid rgba(125,211,252,0.35); border-radius:12px; padding:20px 10px 14px; flex:1; min-width:0; text-align:center;">
-      <div style="position:absolute; top:-11px; left:10px; background:#ef4444; color:#fff; width:22px; height:22px; border-radius:50%; font-size:0.68rem; font-weight:700; line-height:22px; text-align:center;">⑥</div>
-      <div style="font-size:1.5rem; margin-bottom:6px;">🔒</div>
-      <div style="font-size:0.8rem; font-weight:700; color:#fff;">거버넌스·보안</div>
-      <div style="font-size:0.62rem; color:#e0f2fe; margin-top:6px;"><span style="color:#fbbf24; font-weight:600;">목표:</span> 보안 강화<br/>및 규정 준수</div>
-    </div>
-
+    <div style="background:#F3E5F5; border:2px solid #7B1FA2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑥<br/>거버넌스·보안</div>
   </div>
 
 </div>
