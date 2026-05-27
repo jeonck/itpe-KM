@@ -11,11 +11,11 @@ weight: 1
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
 flowchart LR
-    A["①<br/>기초·방법론"] --"무엇을<br/>어떻게 만들까?"--> B["②<br/>프로젝트<br/>관리"]
-    B --"범위·일정·<br/>비용을 잡아라"--> C["③<br/>요구공학"]
-    D["④<br/>분석·설계"] --"구조를<br/>잡아라"--> E["⑤<br/>테스트·품질"]
-    E --"검증하고<br/>보증하라"--> F["⑥<br/>유지보수"]
-    F --"배포 이후도<br/>엔지니어링"--> G["⑦<br/>최신 패러다임"]
+    A["①<br/>기초·방법론"] --"계획하고<br/>통제하라"--> B["②<br/>프로젝트<br/>관리"]
+    B --"요구사항을<br/>도출하라"--> C["③<br/>요구공학"]
+    D["④<br/>분석·설계"] --"품질을<br/>검증하라"--> E["⑤<br/>테스트·품질"]
+    E --"변경을<br/>지속 관리하라"--> F["⑥<br/>유지보수"]
+    F --"자동화로<br/>혁신하라"--> G["⑦<br/>최신 패러다임"]
 
     style A fill:#FFEBEE,stroke:#D32F2F,color:#000
     style B fill:#FFF3E0,stroke:#F57C00,color:#000
