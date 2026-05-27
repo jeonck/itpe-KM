@@ -25,15 +25,15 @@ weight: 2
     <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">③<br/>성능 최적화</div>
   </div>
 
-  <!-- ③→④ 꺾은선: 오른쪽 수직 + 수평 복귀 + 왼쪽 화살표 -->
-  <div style="display:flex; height:44px; position:relative; overflow:visible;">
+  <!-- ③→④ 꺾은선: ③ 중앙 수직 + 수평 복귀 + ④ 중앙 화살표 -->
+  <div style="display:flex; height:48px; position:relative; overflow:visible;">
     <span style="position:absolute; left:50%; top:10px; transform:translateX(-50%); font-size:0.72rem; color:#666; white-space:nowrap;">중단 없이 운영하라</span>
-    <!-- 수평선 (왼쪽 구간) -->
+    <!-- 수평선 -->
     <div style="flex:1; border-bottom:2px solid #aaa;"></div>
-    <!-- 수직선 + 오른쪽 코너 (┘) -->
-    <div style="width:20px; border-right:2px solid #aaa; border-bottom:2px solid #aaa; border-bottom-right-radius:8px;"></div>
-    <!-- 왼쪽 끝 아래 방향 화살표 -->
-    <div style="position:absolute; bottom:-7px; left:0; width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:8px solid #aaa;"></div>
+    <!-- ③ 중앙 코너: min-width(88px)의 절반 = 44px -->
+    <div style="width:44px; border-right:2px solid #aaa; border-bottom:2px solid #aaa; border-bottom-right-radius:10px;"></div>
+    <!-- ④ 중앙(44px)에 아래 방향 화살표 -->
+    <div style="position:absolute; bottom:-8px; left:44px; transform:translateX(-50%); width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:8px solid #aaa;"></div>
   </div>
 
   <!-- 행 2: ④ → ⑤ → ⑥ -->
