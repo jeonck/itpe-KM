@@ -11,44 +11,80 @@ weight: 2
 <div style="font-family:sans-serif; margin:1.5rem 0; display:inline-block; max-width:100%;">
 
   <!-- 행 1: ① → ② → ③ -->
-  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap;">
-    <div style="background:#FFEBEE; border:2px solid #D32F2F; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">①<br/>기초·모델링</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">일관성을 보장하라</span>
-      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
+  <div style="display:flex; align-items:stretch; gap:0; flex-wrap:nowrap;">
+
+    <div style="background:#FFEBEE; border:2px solid #D32F2F; border-radius:14px; padding:12px 16px; text-align:center; font-size:0.85rem; font-weight:600; min-width:96px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+      <span style="display:inline-block; background:#D32F2F; color:#fff; border-radius:50%; width:22px; height:22px; line-height:22px; font-size:0.7rem; text-align:center;">①</span>
+      기초·모델링
     </div>
-    <div style="background:#FFF3E0; border:2px solid #F57C00; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">②<br/>트랜잭션·동시성</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">빠르게 처리하라</span>
-      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
+
+    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 8px; min-width:100px;">
+      <span style="font-size:0.68rem; color:#666; white-space:nowrap; margin-bottom:3px;">일관성을 보장하라</span>
+      <span style="font-size:0.95rem; color:#aaa; letter-spacing:-2px;">──────▶</span>
     </div>
-    <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">③<br/>성능 최적화</div>
+
+    <div style="background:#FFF3E0; border:2px solid #F57C00; border-radius:14px; padding:12px 16px; text-align:center; font-size:0.85rem; font-weight:600; min-width:96px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+      <span style="display:inline-block; background:#F57C00; color:#fff; border-radius:50%; width:22px; height:22px; line-height:22px; font-size:0.7rem; text-align:center;">②</span>
+      트랜잭션·동시성
+    </div>
+
+    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 8px; min-width:92px;">
+      <span style="font-size:0.68rem; color:#666; white-space:nowrap; margin-bottom:3px;">빠르게 처리하라</span>
+      <span style="font-size:0.95rem; color:#aaa; letter-spacing:-2px;">──────▶</span>
+    </div>
+
+    <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:14px; padding:12px 16px; text-align:center; font-size:0.85rem; font-weight:600; min-width:96px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+      <span style="display:inline-block; background:#F9A825; color:#fff; border-radius:50%; width:22px; height:22px; line-height:22px; font-size:0.7rem; text-align:center;">③</span>
+      성능 최적화
+    </div>
+
   </div>
 
-  <!-- ③→④ 꺾은선: ③ 중앙 수직 + 수평 복귀 + ④ 중앙 화살표 -->
-  <div style="display:flex; height:48px; position:relative; overflow:visible;">
-    <span style="position:absolute; left:50%; top:10px; transform:translateX(-50%); font-size:0.72rem; color:#666; white-space:nowrap;">중단 없이 운영하라</span>
-    <!-- 수평선 -->
-    <div style="flex:1; border-bottom:2px solid #aaa;"></div>
-    <!-- ③ 중앙 코너: min-width(88px)의 절반 = 44px -->
-    <div style="width:44px; border-right:2px solid #aaa; border-bottom:2px solid #aaa; border-bottom-right-radius:10px;"></div>
-    <!-- ④ 중앙(44px)에 아래 방향 화살표 -->
-    <div style="position:absolute; bottom:-8px; left:44px; transform:translateX(-50%); width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:8px solid #aaa;"></div>
+  <!-- ③→④ 꺾은선: 오른쪽 수직↓ → 수평← → 왼쪽 수직↓ (이미지 참조) -->
+  <div style="display:flex; height:52px; position:relative; overflow:visible; margin:2px 0 4px;">
+    <!-- 레이블: 수평선 바로 아래 중앙 -->
+    <span style="position:absolute; top:30px; left:50%; transform:translateX(-50%); font-size:0.68rem; color:#777; white-space:nowrap;">중단 없이 운영하라</span>
+    <!-- 왼쪽: ④ 위에서 수직↓ (border-left + border-top + 왼쪽 위 radius) -->
+    <div style="width:48px; height:26px; flex-shrink:0; align-self:flex-end;
+                border-left:2px solid #bbb; border-top:2px solid #bbb; border-top-left-radius:10px;"></div>
+    <!-- 가운데: 수평선 (border-top) -->
+    <div style="flex:1; height:26px; align-self:flex-end; border-top:2px solid #bbb;"></div>
+    <!-- 오른쪽: ③ 아래서 수직↓ (border-right + border-bottom + 오른쪽 아래 radius) -->
+    <div style="width:48px; height:26px; flex-shrink:0; align-self:flex-start;
+                border-right:2px solid #bbb; border-bottom:2px solid #bbb; border-bottom-right-radius:10px;"></div>
+    <!-- ④ 중앙 아래 방향 화살표 -->
+    <div style="position:absolute; bottom:-8px; left:48px; transform:translateX(-50%);
+                width:0; height:0; border-left:6px solid transparent; border-right:6px solid transparent; border-top:8px solid #bbb;"></div>
   </div>
 
   <!-- 행 2: ④ → ⑤ → ⑥ -->
-  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-top:10px;">
-    <div style="background:#E8F5E9; border:2px solid #388E3C; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">④<br/>고가용성·분산</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">대규모로 확장하라</span>
-      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
+  <div style="display:flex; align-items:stretch; gap:0; flex-wrap:nowrap; margin-top:8px;">
+
+    <div style="background:#E8F5E9; border:2px solid #388E3C; border-radius:14px; padding:12px 16px; text-align:center; font-size:0.85rem; font-weight:600; min-width:96px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+      <span style="display:inline-block; background:#388E3C; color:#fff; border-radius:50%; width:22px; height:22px; line-height:22px; font-size:0.7rem; text-align:center;">④</span>
+      고가용성·분산
     </div>
-    <div style="background:#E3F2FD; border:2px solid #1976D2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑤<br/>최신 아키텍처</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">안전하게 관리하라</span>
-      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
+
+    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 8px; min-width:92px;">
+      <span style="font-size:0.68rem; color:#666; white-space:nowrap; margin-bottom:3px;">대규모로 확장하라</span>
+      <span style="font-size:0.95rem; color:#aaa; letter-spacing:-2px;">──────▶</span>
     </div>
-    <div style="background:#F3E5F5; border:2px solid #7B1FA2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑥<br/>거버넌스·보안</div>
+
+    <div style="background:#E3F2FD; border:2px solid #1976D2; border-radius:14px; padding:12px 16px; text-align:center; font-size:0.85rem; font-weight:600; min-width:96px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+      <span style="display:inline-block; background:#1976D2; color:#fff; border-radius:50%; width:22px; height:22px; line-height:22px; font-size:0.7rem; text-align:center;">⑤</span>
+      최신 아키텍처
+    </div>
+
+    <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 8px; min-width:92px;">
+      <span style="font-size:0.68rem; color:#666; white-space:nowrap; margin-bottom:3px;">안전하게 관리하라</span>
+      <span style="font-size:0.95rem; color:#aaa; letter-spacing:-2px;">──────▶</span>
+    </div>
+
+    <div style="background:#F3E5F5; border:2px solid #7B1FA2; border-radius:14px; padding:12px 16px; text-align:center; font-size:0.85rem; font-weight:600; min-width:96px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;">
+      <span style="display:inline-block; background:#7B1FA2; color:#fff; border-radius:50%; width:22px; height:22px; line-height:22px; font-size:0.7rem; text-align:center;">⑥</span>
+      거버넌스·보안
+    </div>
+
   </div>
 
 </div>
