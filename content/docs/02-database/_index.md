@@ -8,50 +8,23 @@ weight: 2
 
 ## 학습 로드맵 — 6단계 흐름
 
-<div style="font-family:sans-serif; margin:1.5rem 0; display:inline-block; max-width:100%;">
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
+flowchart LR
+    A["①<br/>기초·모델링"] --"일관성을<br/>보장하라"--> B["②<br/>트랜잭션·동시성"]
+    B --"빠르게<br/>처리하라"--> C["③<br/>성능 최적화"]
+    C --"중단 없이<br/>운영하라"--> Z[" "]
+    D["④<br/>고가용성·분산"] --"대규모로<br/>확장하라"--> E["⑤<br/>최신 아키텍처"]
+    E --"안전하게<br/>관리하라"--> F["⑥<br/>거버넌스·보안"]
 
-  <!-- 행 1: ① → ② → ③ -->
-  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap;">
-    <div style="background:#FFEBEE; border:2px solid #D32F2F; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">①<br/>기초·모델링</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">일관성을 보장하라</span>
-      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
-    </div>
-    <div style="background:#FFF3E0; border:2px solid #F57C00; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">②<br/>트랜잭션·동시성</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">빠르게 처리하라</span>
-      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
-    </div>
-    <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">③<br/>성능 최적화</div>
-  </div>
-
-  <!-- ③→④ 꺾은선: ③ 중앙 수직 + 수평 복귀 + ④ 중앙 화살표 -->
-  <div style="display:flex; height:48px; position:relative; overflow:visible;">
-    <span style="position:absolute; left:50%; top:10px; transform:translateX(-50%); font-size:0.72rem; color:#666; white-space:nowrap;">중단 없이 운영하라</span>
-    <!-- 수평선 -->
-    <div style="flex:1; border-bottom:2px solid #aaa;"></div>
-    <!-- ③ 중앙 코너: min-width(88px)의 절반 = 44px -->
-    <div style="width:44px; border-right:2px solid #aaa; border-bottom:2px solid #aaa; border-bottom-right-radius:10px;"></div>
-    <!-- ④ 중앙(44px)에 아래 방향 화살표 -->
-    <div style="position:absolute; bottom:-8px; left:44px; transform:translateX(-50%); width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:8px solid #aaa;"></div>
-  </div>
-
-  <!-- 행 2: ④ → ⑤ → ⑥ -->
-  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-top:10px;">
-    <div style="background:#E8F5E9; border:2px solid #388E3C; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">④<br/>고가용성·분산</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">대규모로 확장하라</span>
-      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
-    </div>
-    <div style="background:#E3F2FD; border:2px solid #1976D2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑤<br/>최신 아키텍처</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">안전하게 관리하라</span>
-      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
-    </div>
-    <div style="background:#F3E5F5; border:2px solid #7B1FA2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑥<br/>거버넌스·보안</div>
-  </div>
-
-</div>
+    style A fill:#FFEBEE,stroke:#D32F2F,color:#000
+    style B fill:#FFF3E0,stroke:#F57C00,color:#000
+    style C fill:#FFFDE7,stroke:#F9A825,color:#000
+    style D fill:#E8F5E9,stroke:#388E3C,color:#000
+    style E fill:#E3F2FD,stroke:#1976D2,color:#000
+    style F fill:#F3E5F5,stroke:#7B1FA2,color:#000
+    style Z fill:none,stroke:none
+```
 
 ---
 
