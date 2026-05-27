@@ -13,13 +13,13 @@ weight: 2
   <!-- 행 1: ① → ② → ③ -->
   <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-bottom:2px;">
     <div style="background:#FFEBEE; border:2px solid #D32F2F; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">①<br/>기초·모델링</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">구조를 설계하라</span>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">일관성을 보장하라</span>
       <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
     <div style="background:#FFF3E0; border:2px solid #F57C00; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">②<br/>트랜잭션·동시성</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">일관성을 보장하라</span>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">빠르게 처리하라</span>
       <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
     <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">③<br/>성능 최적화</div>
@@ -27,19 +27,19 @@ weight: 2
 
   <!-- ③→④ 연결: 행 1 끝에서 행 2 시작으로 꺾임 -->
   <div style="display:flex; align-items:center; margin-bottom:2px; padding-left:4px;">
-    <span style="font-size:0.72rem; color:#555; white-space:nowrap;">빠르게 처리하라 ↓</span>
+    <span style="font-size:0.72rem; color:#555; white-space:nowrap;">중단 없이 운영하라 ↓</span>
   </div>
 
   <!-- 행 2: ④ → ⑤ → ⑥ (왼쪽 정렬) -->
   <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap;">
     <div style="background:#E8F5E9; border:2px solid #388E3C; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">④<br/>고가용성·분산</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">중단 없이 운영하라</span>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">대규모로 확장하라</span>
       <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
     <div style="background:#E3F2FD; border:2px solid #1976D2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑤<br/>최신 아키텍처</div>
-    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">대규모로 확장하라</span>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">안전하게 관리하라</span>
       <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
     <div style="background:#F3E5F5; border:2px solid #7B1FA2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑥<br/>거버넌스·보안</div>
