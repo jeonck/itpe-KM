@@ -8,10 +8,10 @@ weight: 2
 
 ## 학습 로드맵 — 6단계 흐름
 
-<div style="font-family:sans-serif; margin:1.5rem 0;">
+<div style="font-family:sans-serif; margin:1.5rem 0; display:inline-block; max-width:100%;">
 
   <!-- 행 1: ① → ② → ③ -->
-  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-bottom:2px;">
+  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap;">
     <div style="background:#FFEBEE; border:2px solid #D32F2F; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">①<br/>기초·모델링</div>
     <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
       <span style="font-size:0.72rem; color:#555; white-space:nowrap;">일관성을 보장하라</span>
@@ -25,13 +25,19 @@ weight: 2
     <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">③<br/>성능 최적화</div>
   </div>
 
-  <!-- ③→④ 연결: 행 1 끝에서 행 2 시작으로 꺾임 -->
-  <div style="display:flex; align-items:center; margin-bottom:2px; padding-left:4px;">
-    <span style="font-size:0.72rem; color:#555; white-space:nowrap;">중단 없이 운영하라 ↓</span>
+  <!-- ③→④ 꺾은선: 오른쪽 수직 + 수평 복귀 + 왼쪽 화살표 -->
+  <div style="display:flex; height:44px; position:relative; overflow:visible;">
+    <span style="position:absolute; left:50%; top:10px; transform:translateX(-50%); font-size:0.72rem; color:#666; white-space:nowrap;">중단 없이 운영하라</span>
+    <!-- 수평선 (왼쪽 구간) -->
+    <div style="flex:1; border-bottom:2px solid #aaa;"></div>
+    <!-- 수직선 + 오른쪽 코너 (┘) -->
+    <div style="width:20px; border-right:2px solid #aaa; border-bottom:2px solid #aaa; border-bottom-right-radius:8px;"></div>
+    <!-- 왼쪽 끝 아래 방향 화살표 -->
+    <div style="position:absolute; bottom:-7px; left:0; width:0; height:0; border-left:5px solid transparent; border-right:5px solid transparent; border-top:8px solid #aaa;"></div>
   </div>
 
-  <!-- 행 2: ④ → ⑤ → ⑥ (왼쪽 정렬) -->
-  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap;">
+  <!-- 행 2: ④ → ⑤ → ⑥ -->
+  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-top:10px;">
     <div style="background:#E8F5E9; border:2px solid #388E3C; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">④<br/>고가용성·분산</div>
     <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
       <span style="font-size:0.72rem; color:#555; white-space:nowrap;">대규모로 확장하라</span>
