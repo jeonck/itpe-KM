@@ -11,12 +11,14 @@ weight: 2
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
 flowchart LR
-    A["①<br/>기초·<br/>모델링"] --"구조를<br/>설계하라"--> B["②<br/>트랜잭션·<br/>동시성"]
-    B --"일관성을<br/>보장하라"--> C["③<br/>성능<br/>최적화"]
-    C --"빠르게<br/>처리하라"--> D["④<br/>고가용성·<br/>분산"]
-    D --"중단 없이<br/>운영하라"--> E["⑤<br/>최신<br/>아키텍처"]
-    E --"대규모로<br/>확장하라"--> F["⑥<br/>거버넌스·<br/>보안"]
-
+    A["①<br/>기초·모델링"]
+    B["②<br/>트랜잭션·동시성"]
+    C["③<br/>성능 최적화"]
+    D["④<br/>고가용성·분산"]
+    E["⑤<br/>최신 아키텍처"]
+    F["⑥<br/>거버넌스·보안"]
+    A --"구조를 설계하라"--> B --"일관성을 보장하라"--> C
+    D --"중단 없이 운영하라"--> E --"대규모로 확장하라"--> F
     style A fill:#FFEBEE,stroke:#D32F2F,color:#000
     style B fill:#FFF3E0,stroke:#F57C00,color:#000
     style C fill:#FFFDE7,stroke:#F9A825,color:#000
