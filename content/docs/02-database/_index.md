@@ -8,24 +8,44 @@ weight: 2
 
 ## 학습 로드맵 — 6단계 흐름
 
-```mermaid
-%%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
-flowchart LR
-    A["①<br/>기초·모델링"]
-    B["②<br/>트랜잭션·동시성"]
-    C["③<br/>성능 최적화"]
-    D["④<br/>고가용성·분산"]
-    E["⑤<br/>최신 아키텍처"]
-    F["⑥<br/>거버넌스·보안"]
-    A --"구조를 설계하라"--> B --"일관성을 보장하라"--> C
-    D --"중단 없이 운영하라"--> E --"대규모로 확장하라"--> F
-    style A fill:#FFEBEE,stroke:#D32F2F,color:#000
-    style B fill:#FFF3E0,stroke:#F57C00,color:#000
-    style C fill:#FFFDE7,stroke:#F9A825,color:#000
-    style D fill:#E8F5E9,stroke:#388E3C,color:#000
-    style E fill:#E3F2FD,stroke:#1976D2,color:#000
-    style F fill:#F3E5F5,stroke:#7B1FA2,color:#000
-```
+<div style="font-family:sans-serif; margin:1.5rem 0; overflow-x:auto;">
+
+  <!-- 행 1 -->
+  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-bottom:4px;">
+    <div style="background:#FFEBEE; border:2px solid #D32F2F; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">①<br/>기초·모델링</div>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">구조를 설계하라</span>
+      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
+    </div>
+    <div style="background:#FFF3E0; border:2px solid #F57C00; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">②<br/>트랜잭션·동시성</div>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">일관성을 보장하라</span>
+      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
+    </div>
+    <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">③<br/>성능 최적화</div>
+    <!-- ③→④ 연결 (아래 방향) -->
+    <div style="display:flex; flex-direction:column; align-items:flex-start; padding:0 8px; min-width:96px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap; margin-left:4px;">빠르게 처리하라</span>
+      <span style="font-size:1.1rem; color:#888; transform:scaleX(-1); display:inline-block;">↲</span>
+    </div>
+  </div>
+
+  <!-- 행 2 (④는 오른쪽 정렬로 들여쓰기) -->
+  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; padding-left:calc(88px + 96px + 88px + 104px);">
+    <div style="background:#E8F5E9; border:2px solid #388E3C; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">④<br/>고가용성·분산</div>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">중단 없이 운영하라</span>
+      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
+    </div>
+    <div style="background:#E3F2FD; border:2px solid #1976D2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑤<br/>최신 아키텍처</div>
+    <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
+      <span style="font-size:0.72rem; color:#555; white-space:nowrap;">대규모로 확장하라</span>
+      <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
+    </div>
+    <div style="background:#F3E5F5; border:2px solid #7B1FA2; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">⑥<br/>거버넌스·보안</div>
+  </div>
+
+</div>
 
 ---
 
