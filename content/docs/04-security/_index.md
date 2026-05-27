@@ -11,16 +11,17 @@ weight: 4
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
 flowchart LR
-    A["①<br/>암호학·인증<br/>기초"] --"기밀성·<br/>무결성 원리"--> B["②<br/>시스템·<br/>네트워크 보안"]
-    B --"경계·전송<br/>보호"--> C["③<br/>애플리케이션<br/>보안"]
-    C --"코드 수준<br/>보안"--> D["④<br/>차세대<br/>보안 패러다임"]
-    D --"현대<br/>아키텍처"--> E["⑤<br/>보안 거버넌스<br/>컴플라이언스"]
+    A["①<br/>암호학·인증<br/>기초"] --"시스템·네트워크를<br/>보호하라"--> B["②<br/>시스템·<br/>네트워크 보안"]
+    B --"애플리케이션<br/>코드를 검증하라"--> C["③<br/>애플리케이션<br/>보안"]
+    C --"최신 위협에<br/>선제 대응하라"--> Z[" "]
+    D["④<br/>차세대<br/>보안 패러다임"] --"법·규제 기준을<br/>준수하라"--> E["⑤<br/>보안 거버넌스<br/>컴플라이언스"]
 
     style A fill:#FFEBEE,stroke:#D32F2F,color:#000
     style B fill:#FFF3E0,stroke:#F57C00,color:#000
     style C fill:#FFFDE7,stroke:#F9A825,color:#000
     style D fill:#E8F5E9,stroke:#388E3C,color:#000
     style E fill:#E3F2FD,stroke:#1976D2,color:#000
+    style Z fill:none,stroke:none
 ```
 
 ---

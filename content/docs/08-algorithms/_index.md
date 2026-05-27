@@ -11,14 +11,15 @@ weight: 8
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
 flowchart LR
-    A["①<br/>자료구조<br/>선형·비선형"] --"저장·관리<br/>구조 이해"--> B["②<br/>설계 패러다임<br/>분할정복·DP·탐욕"]
-    B --"문제 해결<br/>전략 적용"--> C["③<br/>응용 알고리즘<br/>정렬·그래프·문자열"]
-    C --"실전 알고리즘<br/>구현"--> D["④<br/>복잡도 이론<br/>P·NP·NP-Complete"]
+    A["①<br/>자료구조<br/>선형·비선형"] --"효율적 전략을<br/>설계하라"--> B["②<br/>설계 패러다임<br/>분할정복·DP·탐욕"]
+    B --"실전 알고리즘을<br/>구현하라"--> Z[" "]
+    C["③<br/>응용 알고리즘<br/>정렬·그래프·문자열"] --"계산 한계를<br/>이해하라"--> D["④<br/>복잡도 이론<br/>P·NP·NP-Complete"]
 
     style A fill:#FFEBEE,stroke:#D32F2F,color:#000
     style B fill:#FFF3E0,stroke:#F57C00,color:#000
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
     style D fill:#E3F2FD,stroke:#1976D2,color:#000
+    style Z fill:none,stroke:none
 ```
 
 ---

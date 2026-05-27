@@ -11,16 +11,17 @@ weight: 7
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'edgeLabelBackground': '#fff' }}}%%
 flowchart LR
-    A["①<br/>AI·LLM<br/>생성형 AI"] --"지능화<br/>자동화"--> B["②<br/>클라우드 네이티브<br/>DevOps"]
-    B --"인프라<br/>현대화"--> C["③<br/>Web3·블록체인<br/>탈중앙화"]
-    C --"신뢰·분산<br/>경제"--> D["④<br/>메타버스·IoT<br/>공간 컴퓨팅"]
-    D --"물리-디지털<br/>융합"--> E["⑤<br/>차세대 패러다임<br/>양자·UAM·Wasm"]
+    A["①<br/>AI·LLM<br/>생성형 AI"] --"인프라를<br/>현대화하라"--> B["②<br/>클라우드 네이티브<br/>DevOps"]
+    B --"탈중앙화로<br/>신뢰를 구현하라"--> C["③<br/>Web3·블록체인<br/>탈중앙화"]
+    C --"공간과 사물을<br/>연결하라"--> Z[" "]
+    D["④<br/>메타버스·IoT<br/>공간 컴퓨팅"] --"미래 기술을<br/>선점하라"--> E["⑤<br/>차세대 패러다임<br/>양자·UAM·Wasm"]
 
     style A fill:#FFEBEE,stroke:#D32F2F,color:#000
     style B fill:#FFF3E0,stroke:#F57C00,color:#000
     style C fill:#FFFDE7,stroke:#F9A825,color:#000
     style D fill:#E8F5E9,stroke:#388E3C,color:#000
     style E fill:#E3F2FD,stroke:#1976D2,color:#000
+    style Z fill:none,stroke:none
 ```
 
 ---
