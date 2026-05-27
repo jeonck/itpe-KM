@@ -8,10 +8,10 @@ weight: 2
 
 ## 학습 로드맵 — 6단계 흐름
 
-<div style="font-family:sans-serif; margin:1.5rem 0; overflow-x:auto;">
+<div style="font-family:sans-serif; margin:1.5rem 0;">
 
-  <!-- 행 1 -->
-  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-bottom:4px;">
+  <!-- 행 1: ① → ② → ③ -->
+  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; margin-bottom:2px;">
     <div style="background:#FFEBEE; border:2px solid #D32F2F; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">①<br/>기초·모델링</div>
     <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:96px;">
       <span style="font-size:0.72rem; color:#555; white-space:nowrap;">구조를 설계하라</span>
@@ -23,15 +23,15 @@ weight: 2
       <span style="font-size:1rem; color:#888; letter-spacing:-2px;">──────▶</span>
     </div>
     <div style="background:#FFFDE7; border:2px solid #F9A825; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">③<br/>성능 최적화</div>
-    <!-- ③→④ 연결 (아래 방향) -->
-    <div style="display:flex; flex-direction:column; align-items:flex-start; padding:0 8px; min-width:96px;">
-      <span style="font-size:0.72rem; color:#555; white-space:nowrap; margin-left:4px;">빠르게 처리하라</span>
-      <span style="font-size:1.1rem; color:#888; transform:scaleX(-1); display:inline-block;">↲</span>
-    </div>
   </div>
 
-  <!-- 행 2 (④는 오른쪽 정렬로 들여쓰기) -->
-  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap; padding-left:calc(88px + 96px + 88px + 104px);">
+  <!-- ③→④ 연결: 행 1 끝에서 행 2 시작으로 꺾임 -->
+  <div style="display:flex; align-items:center; margin-bottom:2px; padding-left:4px;">
+    <span style="font-size:0.72rem; color:#555; white-space:nowrap;">빠르게 처리하라 ↓</span>
+  </div>
+
+  <!-- 행 2: ④ → ⑤ → ⑥ (왼쪽 정렬) -->
+  <div style="display:flex; align-items:center; gap:0; flex-wrap:nowrap;">
     <div style="background:#E8F5E9; border:2px solid #388E3C; border-radius:8px; padding:10px 14px; text-align:center; font-size:0.85rem; font-weight:600; min-width:88px;">④<br/>고가용성·분산</div>
     <div style="display:flex; flex-direction:column; align-items:center; padding:0 4px; min-width:104px;">
       <span style="font-size:0.72rem; color:#555; white-space:nowrap;">중단 없이 운영하라</span>
