@@ -10,4 +10,6 @@ weight: 9
 | 정보관리기술사 | 28 | 868 | [도메인별](01-info-mgmt/by-domain)·[회차별](01-info-mgmt/by-round) |
 | 컴퓨터시스템응용기술사 | 19 | 589 | [도메인별](02-computer-system/by-domain)·[회차별](02-computer-system/by-round) |
 
+**[중복 기출 토픽 순위](03-frequent-topics)** — 도메인별로 반복 출제된 토픽을 출제 횟수 내림차순으로 정리 (두 종목 합산)
+
 > 출처: Q-net(한국산업인력공단) 기출문제 자료실. 채점기준·기준답안은 비공개입니다.
