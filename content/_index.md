@@ -4,7 +4,7 @@
 <div style="text-align:center; padding: 3rem 1rem 2rem;">
   <h1 style="font-size:2rem; font-weight:700; margin-bottom:0.5rem;">정보시스템 기술사 지식베이스</h1>
   <p style="color:#6b7280; font-size:1.1rem; margin-bottom:2rem;">
-    소프트웨어공학·네트워크·보안·알고리즘 등 8개 영역 200+ 토픽을<br>
+    소프트웨어공학·네트워크·보안·알고리즘 등 8개 영역 200+ 토픽과 최근 10년 기출문제를<br>
     다이어그램·표·핵심 키워드로 정리한 무료 학습 자료입니다.
   </p>
   <a href="/itpe-KM/docs/" style="display:inline-block; background:#1976D2; color:#fff; padding:0.75rem 2rem; border-radius:8px; font-weight:600; text-decoration:none; font-size:1rem; margin-bottom:1rem;">
@@ -26,6 +26,7 @@
 | [IT관리](docs/06-it-management) | 전략, 거버넌스, 프로젝트, 컴플라이언스 |
 | [신기술](docs/07-emerging-tech) | AI/LLM, 클라우드, 블록체인, 메타버스 |
 | [알고리즘](docs/08-algorithms) | 자료구조, 정렬, 그래프, P-NP |
+| [기출문제](docs/09-past-exams) | 정보관리·컴퓨터시스템응용기술사 111~140회, 도메인·회차별 |
 
 ---
 
